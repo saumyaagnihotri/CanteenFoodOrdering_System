@@ -1,0 +1,30 @@
+create table admin(name varchar2(10), key varchar2(10))
+
+
+
+
+insert into admin values('admin','a')
+
+
+
+
+
+
+create table orders(item_name varchar2(20), item_price varchar2(20))
+
+
+
+
+
+insert into orders values('Dosa','199')
+
+
+
+create table customers(name varchar2(20), password varchar2(20), contact varchar2(20), email varchar2(20))
+
+
+create table feedbacks(name varchar2(20), feedback varchar(1000))
+
+
+
+
